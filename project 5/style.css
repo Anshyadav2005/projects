@@ -53,3 +53,45 @@ body {
   min-height: 68px;
   background-color: #1bff69;
 }
+/* tablet */
+@media (max-width: 1025px) {
+  #low-box {
+    max-width: 100%;
+    min-height: 68px;
+    margin: 16px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .down-box {
+    max-width: 100%;
+    min-height: 39px;
+    background-color: #1bff69;
+  }
+}
+/* phone */
+@media (max-width: 768px) {
+  #low-box {
+    max-width: 100%;
+    min-height: 68px;
+    margin: 16px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  .down-box {
+    max-width: 100%;
+    min-height: 42px;
+    background-color: #1bff69;
+  }
+}
+/* small phone */
+@media (max-width: 480px) {
+  .down-box {
+    max-width: 100%;
+    min-height: 62px;
+    background-color: #1bff69;
+  }
+}
