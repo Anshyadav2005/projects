@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+.container {
+  max-width: 1200px;
+  min-height: 1354px;
+  margin: 32px auto;
+}
+.upp-container {
+  max-width: 100%;
+  min-height: 216px;
+  background-color: #000000;
+  display: grid;
+}
+.nav {
+  max-width: 1168;
+  min-height: 120px;
+  margin: 16px;
+  display: flex;
+  gap: 10px;
+}
+#avatar {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+#bar {
+  width: 100%;
+  max-width: 1038px;
+  height: 100px;
+  border-radius: 64px;
+  background-color: #ffffff;
+}
+.nav-menu {
+  max-width: 1168px;
+  min-height: 48px;
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+}
+.menu-item {
+  max-width: 184px;
+  min-height: 48px;
+  display: flex;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+.item-avatar {
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+}
+.item-lines {
+  width: 120px;
+  height: 48px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 6px;
+}
+.lines {
+  width: 100%;
+  min-height: 12px;
+  background-color: #ffffff;
+}
+.low-container {
+  max-width: 1200px;
+  min-height: 1098px;
+  background-color: #000000;
+  margin-top: 40px;
+}
+.nav2 {
+  max-width: 100%;
+  min-height: 100px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav2-left {
+  max-width: 344px;
+  min-height: 100px;
+  padding: 6px;
+  display: flex;
+  gap: 6px;
+}
+#nav2-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+#left-box {
+  width: 232px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px;
+}
+#box-2x {
+  max-width: 216px;
+  min-height: 28px;
+  background-color: #ffffff;
+}
+.box-1x {
+  max-width: 216px;
+  min-height: 8px;
+  background-color: #ffffff;
+}
+#box-x {
+  width: 100px;
+  height: 28px;
+  display: flex;
+  gap: 6px;
+}
+#cube {
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+}
+#rec {
+  width: 76px;
+  height: 20px;
+  background-color: #ffffff;
+}
+.nav2-dice {
+  max-width: 56px;
+  min-height: 24x;
+  display: flex;
+  gap: 8px;
+}
+.dice {
+  background-color: #ffffff;
+  height: 24px;
+  width: 24px;
+}
+.big-boss {
+  max-width: 1168px;
+  min-height: 942px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding-bottom: 16px;
+}
+#junior1 {
+  width: 358px;
+  height: 28px;
+  background-color: #ffffff;
+}
+#junior2 {
+  max-width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+}
+#junior3 {
+  max-width: 100%;
+  height: 800px;
+  background-color: #ffffff;
+}
+@media (max-width: 650px) {
+  .nav {
+    min-width: 329px;
+    min-height: 120px;
+    margin: 16px;
+    display: flex;
+    gap: 10px;
+  }
+  #bar {
+    width: 100%;
+    height: 100px;
+    border-radius: 64px;
+    background-color: #ffffff;
+    margin-right: 16px;
+  }
+  .nav-menu {
+    max-width: 1168px;
+    min-height: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .menu-item {
+    max-width: 100%;
+    min-height: 48px;
+    display: flex;
+    gap: 6px;
+    padding-bottom: 16px;
+  }
+  .item-lines {
+    max-width: 100%;
+    width: 500px;
+    height: 48px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6px;
+  }
+  .lines {
+    width: 100%;
+    min-height: 12px;
+    background-color: #ffffff;
+  }
+}
+@media (max-width: 525px) {
+  .nav {
+    width: 329px;
+    min-height: 120px;
+    margin: 16px;
+    display: flex;
+    gap: 10px;
+  }
+  #bar {
+    width: 100%;
+    height: 100px;
+    border-radius: 64px;
+    background-color: #ffffff;
+    margin-right: 16px;
+  }
+  .nav-menu {
+    max-width: 1168px;
+    min-height: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .menu-item {
+    max-width: 100%;
+    min-height: 48px;
+    display: flex;
+    gap: 6px;
+    padding-bottom: 16px;
+  }
+  .item-lines {
+    max-width: 100%;
+    width: 250px;
+    height: 48px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6px;
+  }
+  .lines {
+    width: 100%;
+    min-height: 12px;
+    background-color: #ffffff;
+  }
+  .nav2 {
+    max-width: 100%;
+    min-height: 100px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .nav2-dice {
+    max-width: 56px;
+    min-height: 24x;
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+  }
+}
